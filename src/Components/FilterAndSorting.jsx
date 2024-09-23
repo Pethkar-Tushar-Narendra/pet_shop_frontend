@@ -40,27 +40,27 @@ const FilterAndSorting = () => {
                 <h3 class="sr-only">Categories</h3>
                 <ul role="list" class="px-2 py-3 font-medium text-gray-900">
                   <li>
-                    <a href="#" class="block px-2 py-3">
+                    <a href="/" class="block px-2 py-3">
                       Totes
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="block px-2 py-3">
+                    <a href="/" class="block px-2 py-3">
                       Backpacks
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="block px-2 py-3">
+                    <a href="/" class="block px-2 py-3">
                       Travel Bags
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="block px-2 py-3">
+                    <a href="/" class="block px-2 py-3">
                       Hip Bags
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="block px-2 py-3">
+                    <a href="/" class="block px-2 py-3">
                       Laptop Sleeves
                     </a>
                   </li>
@@ -485,7 +485,7 @@ const FilterAndSorting = () => {
                   <div class="py-1" role="none">
                     {" "}
                     <a
-                      href="#"
+                      href="/"
                       class="block px-4 py-2 text-sm font-medium text-gray-900"
                       role="menuitem"
                       tabindex="-1"
@@ -494,7 +494,7 @@ const FilterAndSorting = () => {
                       Most Popular
                     </a>
                     <a
-                      href="#"
+                      href="/"
                       class="block px-4 py-2 text-sm text-gray-500"
                       role="menuitem"
                       tabindex="-1"
@@ -503,7 +503,7 @@ const FilterAndSorting = () => {
                       Best Rating
                     </a>
                     <a
-                      href="#"
+                      href="/"
                       class="block px-4 py-2 text-sm text-gray-500"
                       role="menuitem"
                       tabindex="-1"
@@ -512,7 +512,7 @@ const FilterAndSorting = () => {
                       Newest
                     </a>
                     <a
-                      href="#"
+                      href="/"
                       class="block px-4 py-2 text-sm text-gray-500"
                       role="menuitem"
                       tabindex="-1"
@@ -521,7 +521,7 @@ const FilterAndSorting = () => {
                       Price: Low to High
                     </a>
                     <a
-                      href="#"
+                      href="/"
                       class="block px-4 py-2 text-sm text-gray-500"
                       role="menuitem"
                       tabindex="-1"
@@ -585,19 +585,19 @@ const FilterAndSorting = () => {
                   class="space-y-4 border-b border-gray-200 pb-6 text-sm font-medium text-gray-900"
                 >
                   <li>
-                    <a href="#">Totes</a>
+                    <a href="/">Totes</a>
                   </li>
                   <li>
-                    <a href="#">Backpacks</a>
+                    <a href="/">Backpacks</a>
                   </li>
                   <li>
-                    <a href="#">Travel Bags</a>
+                    <a href="/">Travel Bags</a>
                   </li>
                   <li>
-                    <a href="#">Hip Bags</a>
+                    <a href="/">Hip Bags</a>
                   </li>
                   <li>
-                    <a href="#">Laptop Sleeves</a>
+                    <a href="/">Laptop Sleeves</a>
                   </li>
                 </ul>
 

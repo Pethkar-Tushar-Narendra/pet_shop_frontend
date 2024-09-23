@@ -15,8 +15,8 @@ const Navbar = () => {
               >
                 <span className="absolute -inset-0.5"></span>
                 <span className="sr-only">Open main menu</span>
-                Icon when menu is closed. Menu open: "hidden", Menu closed:
-                "block"
+                {/* Icon when menu is closed. Menu open: "hidden", Menu closed:
+                "block" */}
                 <svg
                   className="block h-6 w-6"
                   fill="none"
@@ -31,8 +31,8 @@ const Navbar = () => {
                     d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
                   />
                 </svg>
-                Icon when menu is open. Menu open: "block", Menu closed:
-                "hidden"
+                {/* Icon when menu is open. Menu open: "block", Menu closed:
+                "hidden" */}
                 <svg
                   className="hidden h-6 w-6"
                   fill="none"
@@ -60,26 +60,26 @@ const Navbar = () => {
               <div className="hidden sm:ml-6 sm:block">
                 <div className="flex space-x-4">
                   <a
-                    href="#"
+                    href="/"
                     className="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white"
                     aria-current="page"
                   >
                     Dashboard
                   </a>
                   <a
-                    href="#"
+                    href="/"
                     className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
                   >
                     Team
                   </a>
                   <a
-                    href="#"
+                    href="/"
                     className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
                   >
                     Projects
                   </a>
                   <a
-                    href="#"
+                    href="/"
                     className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
                   >
                     Calendar
@@ -136,7 +136,7 @@ const Navbar = () => {
                   tabindex="-1"
                 >
                   <a
-                    href="#"
+                    href="/"
                     className="block px-4 py-2 text-sm text-gray-700"
                     role="menuitem"
                     tabindex="-1"
@@ -145,7 +145,7 @@ const Navbar = () => {
                     Your Profile
                   </a>
                   <a
-                    href="#"
+                    href="/"
                     className="block px-4 py-2 text-sm text-gray-700"
                     role="menuitem"
                     tabindex="-1"
@@ -154,7 +154,7 @@ const Navbar = () => {
                     Settings
                   </a>
                   <a
-                    href="#"
+                    href="/"
                     className="block px-4 py-2 text-sm text-gray-700"
                     role="menuitem"
                     tabindex="-1"
@@ -171,26 +171,26 @@ const Navbar = () => {
         <div className="sm:hidden" id="mobile-menu">
           <div className="space-y-1 px-2 pb-3 pt-2">
             <a
-              href="#"
+              href="/"
               className="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white"
               aria-current="page"
             >
               Dashboard
             </a>
             <a
-              href="#"
+              href="/"
               className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
             >
               Team
             </a>
             <a
-              href="#"
+              href="/"
               className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
             >
               Projects
             </a>
             <a
-              href="#"
+              href="/"
               className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
             >
               Calendar
