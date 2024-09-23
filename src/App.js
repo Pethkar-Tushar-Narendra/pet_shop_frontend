@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Navbar from "./Components/Navbar";
 import Home from "./Pages/Home";
+import ContactSales from "./Components/ContactSales";
 
 function App() {
   return (
@@ -15,7 +16,9 @@ function App() {
             <Route path="/" element={<Home />} />
           </Routes>
         </main>
-        <footer></footer>
+        <footer>
+          <ContactSales />
+        </footer>
       </div>
     </BrowserRouter>
   );
