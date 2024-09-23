@@ -1,10 +1,10 @@
 import React from "react";
-import ProductList from "../Components/ProductList";
+import FilterAndSorting from "../Components/FilterAndSorting";
 
 const Home = () => {
   return (
     <>
-      <ProductList />
+      <FilterAndSorting />
     </>
   );
 };
