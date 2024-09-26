@@ -1,11 +1,14 @@
-import React from "react";
-import ProductList from "./ProductList";
 
-const FilterAndSorting = () =>
+import ProductList from "./ProductList";
+import React, { useState } from 'react';
+
+
+const FilterAndSorting = () =>{
+  const [mobileFilterToggle,setMobileFolterToggle] = useState(false);
   return (
     <div class="bg-white">
       <div>
-        <div class="relative z-40 lg:hidden hidden" role="dialog" aria-modal="true">
+        <div class={'relative z-40 lg:hidden ${mobileFilterToggle}'} role="dialog" aria-modal="true">
           <div
             class="fixed inset-0 bg-black bg-opacity-25"
             aria-hidden="true"
@@ -983,7 +986,7 @@ const FilterAndSorting = () =>
         </main>
       </div>
     </div>
-  );
+  )};
 };
 
 export default FilterAndSorting;
