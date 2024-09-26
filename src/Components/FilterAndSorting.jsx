@@ -5,7 +5,7 @@ const FilterAndSorting = () => {
   return (
     <div class="bg-white">
       <div>
-        <div class="relative z-40 lg:hidden" role="dialog" aria-modal="true">
+        <div class="relative z-40 lg:hidden hidden" role="dialog" aria-modal="true">
           <div
             class="fixed inset-0 bg-black bg-opacity-25"
             aria-hidden="true"
