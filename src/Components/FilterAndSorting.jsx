@@ -986,7 +986,7 @@ const FilterAndSorting = () =>{
         </main>
       </div>
     </div>
-  )};
-};
+  )}
+;
 
 export default FilterAndSorting;
